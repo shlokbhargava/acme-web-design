@@ -1,0 +1,162 @@
+body{
+	font-family: Helvetica;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: lightgrey;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.button_1{
+	height: 30px;
+	background: darkorange;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: white;
+	font-weight: bold;
+}
+header{
+	background: darkslategrey;
+	color: white;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: darkorange 3px solid;
+}
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: darkorange;
+	font-weight: bold;
+}
+header a:hover{
+	color: grey;
+	font-weight: bold;
+}
+#showcase{
+	
+	min-height: 400px;
+	background: url('../images/showcase.jpg') no-repeat -500px -580px ;
+	text-align: center;
+	color: white;
+}
+#showcase h1{
+	margin-top: 80px;
+	font-size: 47px;
+	margin-bottom: 10px;
+}
+#showcase p{
+	font-size: 20px;
+}
+#newsletter{
+	background: darkslategrey;
+	color: white;
+	font-size: 15px;
+	padding: 15px;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	
+	margin-top: 15px;
+}
+#newsletter input[type="email"]{
+	padding: 2px;
+	height: 20px;
+	width: 200px;
+}
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box img{
+	height: 85px;
+	width: 85px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;;
+	width: 31%;
+	padding: 10px;
+}
+article#main-col{
+	float: left;
+	width: 65%;
+}
+aside#sidebar{
+	float: right;
+	width: 30%;
+	background: darkslategrey;
+	color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+ul#services li{
+	list-style: none;
+	padding: 20px;
+	border: grey solid 1 px;
+	margin-bottom: 5px;
+	background: grey;
+	width: 70%;
+
+}
+form#sample{
+	background: darkslategrey;
+	color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+}
+input{
+	margin: 0px;
+}
+textarea{
+	margin: 0px;
+}
+footer{
+    background: darkorange;
+    color: white;
+    text-align: center;
+    padding: 10px;
+	margin-top: 10px;
+}
+@media(max-width: 768px){
+	header#branding, 
+	header nav,
+	header nav li{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}
+
+
+
+
+
